@@ -13,9 +13,20 @@ class main{
       
     paresImpares secuencia =new paresImpares();
     if (aux==0){
-    for (num1;num1<num2;num1++){
+    for( ;num1<num2;){
       secuencia.pares(num1,num2);
       System.out.print(secuencia.pares(num1,num2));}
+      }
+    else{
+      num1+=1;
+       while (num1<num2){
+      secuencia.pares(num1,num2);
+      System.out.print(secuencia.pares(num1,num2));}
+    }
+    if (aux!=0){
+    for( ;num1<num2;){
+      secuencia.impares(num1,num2);
+      System.out.print(secuencia.impares(num1,num2));}
       }
     else{
       int i=1;
