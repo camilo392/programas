@@ -14,7 +14,7 @@ class main{
     paresImpares secuencia =new paresImpares();
     if (aux==0){
     for( ;num1<num2;){
-      secuencia.pares(num1,num2);
+      secuencia.pares(num1,num2);//TENGO QUE ARREGLAR ESTE BUCLE INFINITOOO
       System.out.print(secuencia.pares(num1,num2));}
       }
     else{
