@@ -1,6 +1,6 @@
 class paresImpares{
   
-  int pares, impares;
+  int a;
 
   public int pares(int a, int b){
       a+=2;
