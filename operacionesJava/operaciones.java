@@ -1,9 +1,8 @@
   
 public class operaciones{
   
-  int suma, resta, multiplicacion;
 
-  public int suma(int a, int b ){
+  public static int suma(int a, int b ){
     int c=b+a;
     return c;
   }

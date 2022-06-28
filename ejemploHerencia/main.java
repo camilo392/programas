@@ -14,7 +14,7 @@ class Main {
     System.out.println(renault.getColor());
     renault.setnumeroLlantas(4, true);
     System.out.println(renault.getnumeroLlantas());
-    System.out.println(renault.placa);
+    System.out.println(renault.getPlaca());
 
     Coche mercedes = new Coche();
     mercedes.setPlaca ("BBB555");

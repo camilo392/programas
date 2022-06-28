@@ -3,7 +3,7 @@ import java.awt.Color;
 public class Vehiculo{
   
   private Color color;
-  public String placa;
+  private String placa;
 
   public Color getColor(){
     return color;

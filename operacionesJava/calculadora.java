@@ -17,16 +17,13 @@ class main{
 
   operaciones operar=new operaciones();
     if (oper.equals("suma")){
-    operar.suma(num1,num2);
-    System.out.println(operar.suma(num1,num2));
+    System.out.println(operaciones.suma(num1,num2));
       }
     else if (oper.equals("resta")){
-    operar.resta(num1,num2);
-    System.out.println(+operar.resta(num1,num2));
+    System.out.println(operar.resta(num1,num2));
       }
     else{
-    operar.multiplicacion(num1,num2);
-    System.out.println(+operar.multiplicacion(num1,num2));
+    System.out.println(operar.multiplicacion(num1,num2));
       }
   }
 }
